@@ -32,9 +32,9 @@ namespace ConsoleApp24
                 {
                     if (array[i] < array[j])
                     {
-                        int min = array[i];
+                        int step = array[i];
                         array[i] = array[j];
-                        array[j] = min;
+                        array[j] = step;
                     }
                 }
                 Console.Write("{0},", array[i]);
